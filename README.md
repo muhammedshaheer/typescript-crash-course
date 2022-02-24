@@ -1,3 +1,7 @@
-tsc --init
+# Typescript Project
 
-tsc --watch index.ts
+## Basic Typescript init command
+### tsc --init
+
+## Typescript watch command
+### tsc --watch
