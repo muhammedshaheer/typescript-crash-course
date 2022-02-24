@@ -59,7 +59,7 @@ function addNum(x: number, y: number): number {
 }
 
 //Void
-function log(message: number | string): void {
+function print(message: number | string): void {
     console.log(message);
 }
 
@@ -103,3 +103,19 @@ class Person implements PersonInterface {
 
 const brad = new Person(1, 'Muhammed');
 const mike = new Person(1, 'Mike');
+// console.log(brad.register());
+// console.log(mike.register());
+
+class Employee extends Person {
+    position: string
+
+    constructor(id: number, name: string, position: string) {
+        super(id, name)
+        this.position = position
+    }
+}
+
+const emp = new Employee(3, 'Shawn', 'Developer')
+// console.log(emp.name);
+// console.log(emp.register());
+
