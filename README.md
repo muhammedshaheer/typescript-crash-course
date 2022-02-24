@@ -1,7 +1,7 @@
-# Typescript Project
+# Typescript Crash Course
 
 ## Basic Typescript init command
-### tsc --init
+```tsc --init```
 
 ## Typescript watch command
-### tsc --watch
+```tsc --watch```
